@@ -1,0 +1,75 @@
+<!-- COPYRIGHT TROY (no use without permission) -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pikmin Showcase</title>
+	<!-- This is the import for jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+	<!-- Imports typed.js -->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!-- Imports local ".js" file -->
+	<script src="typed.js"></script>
+	<!-- Importing local "CSS" file -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="particles-js"></div>
+	<script src="particles/particles.js"></script>
+	<div class="header">
+		<span id="typed"></span>
+	</div>
+
+
+
+<div class="container">
+<div class="jumbotron">
+  <h1 class="display-4">Hello, /SWITCH/!</h1>
+  <p class="lead">This is my website for the #code{central} Student Showcase!</p>
+  <hr class="my-4">
+  <p>This button goes to my GitHub!</p>
+  <a class="btn btn-primary btn-lg" href="https://github.com/beni28abc" role="button">Check it out!</a>
+</div>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/Agent3.jpg" class="d-block" style= "width:500px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/qwertyjpg.jpg" class="d-block" style= "width: 500px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/yeet.png" class="d-block" style= "width: 300px" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	<div class="card" style="width: 18rem;">
+	  <img src="images/Splat!.jpg" class="card-img-top" alt="...">
+	  <div class="card-body">
+	    <h5 class="card-title">Get Splatoon 2!</h5>
+	    <p class="card-text">Go to the official Nintendo website and buy Splatoon 2!</p>
+	    <a href="https://www.nintendo.com/games/detail/splatoon-2-switch" class="btn btn-primary">Buy It!</a>
+	  </div>
+	</div>
+	<div class="card" style="width: 18rem;">
+		<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8JBQkAAABMS0wGAAb5+fnc3Nz29vbp6en8/PwDAAOHhodramvu7u7Kysrf399wb3B8e3xHRUfR0NGysbKOjY5RUFFaWVq5uLlkY2TAwMAUERQ3NTempaY8OjyLiosnJScmJCZDQUMxMDGbmpt+fn4eHB4ZFhmhoKFq0OEiAAAEn0lEQVR4nO2di1IqMRBE2QCCKCKgKCpe8IX//4U3iJS6ZJfZzUwmSfX5gpyyZJtOA50OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBWDG+mi+7iejXRPogQ86458HylfRgJpsYUB4xZ9rXPw81w++O3dzzTPhIvQ/NXMD/F57LgTjGnF5y7Y0GrOBpon4uNa5egVVzn8nLzzy1oFZ+1j8bDqkrQKt5pH46D+2pBq3itfTx/5qZXY1iYW+0D+nJmRnWCVnGlfUQ/jp/0x4oP2of0YfB4UrDombn2MT14Oi2YdriZUQR3imPtk7ZkSRO0ips0w82UKmgVn7QP24Y3uqBVXGgftzk3TQRTDDcPzQSt4oX2kZtxIqs5FT+1D90EQpRxKN5rH5vOuNdC0IabZDrG/qaNYFGMkimnHLUTjVTCjbN2IipuUyinLtsLWsVX7eOf5tZHMIVw8+knaBWX2gr11NZORMWow81V8yjjUHzT1qjmrE2UcSjeaItU0SqrOYg23Ay2PILxhptXLsFduBlq2zgg1k5Excf4wg25diIqrrWFyjSonYiKM22lv3hmNadiVOGmYe1EVJxqa/3wwBFlHIrRhJsWtRNRMZJwM2GKMsf04rh5G4+kBHfhJoKbt/6HnGAc4eZFUtAqFtrhZiEraBU/zlUFK9ZOrIqq4eZCXlB3VuRdOxEV1cKNSFZzKirNilhqJ6KiyqyIqXYiKiqEG67aiYbCrIiyduIkeLg5Z6ydqIphb96Es5pTMWi4Ya6diIoBN9PstRNRMVi4EaidiIqBZkU1y3RxxSA3b0K1E1ExQLgRq52IiuKzIrnaiYZ4uBkrC+7KKdHNtGztREM23JCW6dKYQm4z7bF24kQu3HitnTiRmhUFqZ1omEsJwUbLdGkkwk2w2okG/81bwNqJBne4Ofkhu+Awz4rC1k40WGdFoWsnGpzl1DpGQc5ZEevaiRPzylNOqdRONEyXQ1CpdqLBEW7Uaica/jdvkUWZY3zDDcMyXRq/WZFy7UTCa1akXTvR8Ag3+rUTjdbhph9lVnNhTLtw0/pDduFpF27E106ctJkVRVM70Wh+8xZR7USjabiJqnai0WxWFH1Wc9Hk5i262olEg3ATX+1Eg3zzFmPtRIP4bUWDZAWJ4Sb82okTyrcVKaydODl98xZx7UTjVLgJsEyXpn5WFHntRKMu3CiunTipDjcJ1E40qm7eUqidaFSEmzRqJxrOcJNK7UTDMSsaRLB24sR8lPNbFGsnTsrhppubYHlWlFjtRON3uHnPUfD3rCjJVobC4Vpqks2Tvkzv+0Iju5fRH/ZVeONvGk2Jr+FUUvcTTdk9MsY5C1rFcb4vpHvsG6lMn4UH7DMx2kkXD/YfcZvrw3BPb9PRPoI4nUftEwjz2Nmkec9EZbSO5XMwUphl9Y8x5YG5zTuWfgXTQbbvnXaMTD/TBuPA1wZlkrXhMNsaas/3jCjli/t6TPE96Et1XXKKX7cX8yz/in9+6TRHxdJPuY5nmTkaMyvfPl29mJxYuzZuw9X7XTcHFperOL/xHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8+Q+j72Y8SjJClQAAAABJRU5ErkJggg==" class="card-img-top" alt="...">
+		<div class="card-body">
+			<h5 class="card-title">To Top</h5>
+			<p class="card-text"></p>
+			<a href="#" class="btn btn-primary">Go there!</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
